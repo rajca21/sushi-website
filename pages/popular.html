@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="../images/sushi-9.png" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>EPOSushi - Popular</title>
+  </head>
+  <body>
+    <!-- HEADER SECTION -->
+    <header>
+      <nav class="header__nav">
+        <div class="header__logo">
+          <a href="../index.html"><h4>EPOSushi</h4></a>
+          <div class="header__logo-overlay"></div>
+        </div>
+
+        <ul class="header__menu">
+          <li>
+            <a href="../index.html">Home</a>
+          </li>
+          <li>
+            <a href="#">Popular</a>
+          </li>
+          <li>
+            <a href="./trending.html">Trending</a>
+          </li>
+          <li>
+            <a href="./about.html">About Us</a>
+          </li>
+          <li>
+            <img src="../images/search.svg" alt="search" />
+          </li>
+        </ul>
+
+        <!-- Mobile nav -->
+        <ul class="header__menu-mobile">
+          <li>
+            <img src="../images/menu.svg" alt="menu" />
+          </li>
+        </ul>
+        <!-- Mobile nav End -->
+      </nav>
+
+      <!-- Mobile nav Links -->
+      <ul class="header__menu-mobile-links">
+        <li>
+          <a href="../index.html">Home</a>
+        </li>
+        <li>
+          <a href="#">Popular</a>
+        </li>
+        <li>
+          <a href="./trending.html">Trending</a>
+        </li>
+        <li>
+          <a href="./about.html">About Us</a>
+        </li>
+      </ul>
+      <!-- Mobile nav Links End -->
+    </header>
+    <!-- HEADER SECTION END -->
+
+    <!-- POPULAR SECTION -->
+    <section class="popular-foods">
+      <!-- Title & Filters -->
+      <h2 class="popular-foods__title">Popular Food</h2>
+      <div class="popular-foods__filters sushi__hide-scrollbar">
+        <button class="popular-foods__filter-btn active">All</button>
+        <button class="popular-foods__filter-btn">
+          <img src="../images/sushi-9.png" alt="sushi9" />
+          Sushi
+        </button>
+        <button class="popular-foods__filter-btn">
+          <img src="../images/sushi-8.png" alt="ramen" />
+          Ramen
+        </button>
+        <button class="popular-foods__filter-btn">
+          <img src="../images/sushi-7.png" alt="udon" />
+          Udon
+        </button>
+        <button class="popular-foods__filter-btn">
+          <img src="../images/sushi-6.png" alt="danggo" />
+          Danggo
+        </button>
+        <button class="popular-foods__filter-btn">Other</button>
+      </div>
+      <!-- Title & Filters End -->
+
+      <!-- Catalogue -->
+      <div class="popular-foods__catalogue">
+        <article class="popular-foods__card">
+          <img
+            class="popular-foods__card-image"
+            src="../images/sushi-12.png"
+            alt="sushi12"
+          />
+          <h4 class="popular-foods__card-title">Chezu Sushi</h4>
+          <div class="popular-foods__card-details flex-between">
+            <div class="popular-foods__card-rating">
+              <img src="../images/star.svg" alt="star" />
+              <p>4.9</p>
+            </div>
+            <p class="popular-foods__card-price">$21.00</p>
+          </div>
+        </article>
+        <article class="popular-foods__card active-card">
+          <img
+            class="popular-foods__card-image"
+            src="../images/sushi-11.png"
+            alt="sushi11"
+          />
+          <h4 class="popular-foods__card-title">Originale Sushi</h4>
+          <div class="popular-foods__card-details flex-between">
+            <div class="popular-foods__card-rating">
+              <img src="../images/star.svg" alt="star" />
+              <p>5.0</p>
+            </div>
+            <p class="popular-foods__card-price">$19.00</p>
+          </div>
+        </article>
+        <article class="popular-foods__card">
+          <img
+            class="popular-foods__card-image"
+            src="../images/sushi-10.png"
+            alt="ramen"
+          />
+          <h4 class="popular-foods__card-title">Ramen Legendo</h4>
+          <div class="popular-foods__card-details flex-between">
+            <div class="popular-foods__card-rating">
+              <img src="../images/star.svg" alt="star" />
+              <p>4.8</p>
+            </div>
+            <p class="popular-foods__card-price">$13.00</p>
+          </div>
+        </article>
+      </div>
+      <!-- Catalogue End -->
+
+      <button class="popular-foods__button">
+        Explore Food
+        <img src="../images/arrow-right.svg" alt="arrow-right" />
+      </button>
+    </section>
+    <!-- POPULAR SECTION END-->
+
+    <!-- SUBSCRIBE SECTION -->
+    <section class="subscription flex-center">
+      <h2>
+        Get offers straight <br />
+        to your inbox
+      </h2>
+      <p>Sign up for the EPOSushi newsletter</p>
+
+      <form action="">
+        <div class="subscription__form">
+          <input type="email" placeholder="Enter your email address" required />
+          <button type="submit">Get Started</button>
+        </div>
+        <div class="subscription__form-conditions">
+          <span>Agree to Terms & Conditions</span>
+          <input type="checkbox" required />
+        </div>
+      </form>
+    </section>
+    <!-- SUBSCRIBE SECTION END -->
+
+    <!-- FOOTER -->
+    <footer class="footer flex-between">
+      <h3 class="footer__logo"><span>EPOS</span>ushi</h3>
+      <ul class="footer__nav">
+        <li>
+          <a href="../index.html">Home</a>
+        </li>
+        <li>
+          <a href="#">Popular</a>
+        </li>
+        <li>
+          <a href="./trending.html">Trending</a>
+        </li>
+        <li>
+          <a href="./about.html">About Us</a>
+        </li>
+      </ul>
+      <ul class="footer__social">
+        <li class="flex-center">
+          <img src="../images/facebook.svg" alt="facebook" />
+        </li>
+        <li class="flex-center">
+          <img src="../images/instagram.svg" alt="instagram." />
+        </li>
+        <li class="flex-center">
+          <img src="../images/twitter.svg" alt="twitter" />
+        </li>
+      </ul>
+    </footer>
+    <!-- FOOTER END -->
+
+    <!-- Scroll Up Button -->
+    <a href="#" class="scroll-top">
+      <i class="fa fa-arrow-up"></i>
+    </a>
+    <!-- Scrool Up Button End -->
+  </body>
+</html>
